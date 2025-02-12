@@ -5,9 +5,11 @@
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 ## Sobre o Projeto
+
 O **CraftCV** se propõe a ser um criador de currículos interativo, inspirado no poderoso projeto open-source RxResume. O objetivo é fornecer uma plataforma intuitiva e eficiente para criação, personalização e exportação de currículos profissionais.
 
 ## Funcionalidades Principais
+
 - **Autenticação**: Login e registro via Google ou GitHub utilizando `Auth.js`.
 - **Edição em Tempo Real**: Ferramenta interativa para criar e personalizar currículos.
 - **Banco de Dados**: Armazena currículos de usuários com `Drizzle ORM`.
@@ -16,6 +18,7 @@ O **CraftCV** se propõe a ser um criador de currículos interativo, inspirado n
 - **Geração de PDF**: Conversão do currículo para PDF utilizando `Puppeteer`.
 
 ## Tecnologias Utilizadas
+
 - **[Next.js 15](https://nextjs.org/)** - Framework React para aplicações web modernas.
 - **[TypeScript](https://www.typescriptlang.org/)** - Superset de JavaScript que adiciona tipagem estática.
 - **[Auth.js (NextAuth)](https://authjs.dev/)** - Solução completa para autenticação de usuários.
@@ -29,6 +32,7 @@ O **CraftCV** se propõe a ser um criador de currículos interativo, inspirado n
 - **[OpenAI API](https://openai.com/)** - Inteligência artificial para geração de conteúdo.
 
 ## Instalação e Uso
+
 1. Clone o repositório:
    ```sh
    git clone https://github.com/gafanhotoalexandre/craft-cv.git
@@ -36,7 +40,7 @@ O **CraftCV** se propõe a ser um criador de currículos interativo, inspirado n
    ```
 2. Instale as dependências:
    ```sh
-   pnpm install
+   npm install
    ```
 3. Configure as variáveis de ambiente:
    ```sh
@@ -45,17 +49,17 @@ O **CraftCV** se propõe a ser um criador de currículos interativo, inspirado n
    ```
 4. Execute o projeto em ambiente de desenvolvimento:
    ```sh
-   pnpm dev
+   npm dev
    ```
 5. Para build e deploy:
    ```sh
-   pnpm build && pnpm start
+   npm build && npm start
    ```
 
 ## Contribuição
+
 Sinta-se à vontade para abrir issues e enviar PRs. Qualquer contribuição será bem-vinda!
 
 ## Licença
+
 Este projeto está licenciado sob a MIT License - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-
