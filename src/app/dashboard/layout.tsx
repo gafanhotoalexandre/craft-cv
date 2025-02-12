@@ -1,8 +1,8 @@
 import { ReactNode } from 'react'
 import { Logo } from '@/constants'
 
-import { NavItems } from '@/components/pages/dashboard/NavItems'
-import { UserDropdown } from '@/components/pages/dashboard/UserDropdown'
+import { NavItems } from '@/components/pages/dashboard/resumes/NavItems'
+import { UserDropdown } from '@/components/pages/dashboard/resumes/UserDropdown'
 import { ToggleTheme } from '@/components/shared/ToggleTheme'
 
 interface DashboardLayoutProps {
